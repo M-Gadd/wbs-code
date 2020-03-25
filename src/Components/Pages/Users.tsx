@@ -23,7 +23,7 @@ const Users: React.SFC<UsersProps> = () => {
           <Row>
             {users &&
               users.map((user: any) => (
-                <Col className=" mb-3" xs={4}>
+                <Col className=" mb-3" xs={12} md={4}>
                   <Card className="highlightOnHover py-3 px-3 mb-3">
                     <p>
                       <b>ID: </b>
