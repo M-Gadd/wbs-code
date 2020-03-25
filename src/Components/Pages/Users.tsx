@@ -10,8 +10,8 @@ const Users: React.SFC<UsersProps> = () => {
   if (isLoading) {
     return (
       <Container>
-        <Col xs={3}>
-          <Card>Preparing your Data...</Card>;
+        <Col className="justify-content-center" xs={12}>
+          <Card className="px-3 py-3">Preparing your Data...</Card>;
         </Col>
       </Container>
     );
